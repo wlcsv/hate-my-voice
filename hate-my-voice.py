@@ -14,14 +14,6 @@ element = driver.find_element_by_xpath("//*[@id='sprachwahl']")
 b = driver.find_element_by_xpath("//*[@id='sprachwahl']/option[5]")
 b.click()
 
-# all_options = element.find_elements_by_tag_name("option")
-# for option in all_options:
-#     
-#     value.append(option.get_attribute("value"))
-#     if value == "Ricardo":
-#         option.click()
-# 
-
 a = driver.find_element_by_xpath("//*[@id='vorlesenbutton']")
 a.click()
 
